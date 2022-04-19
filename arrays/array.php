@@ -10,7 +10,9 @@ $primeiraIdade = $idadeList2[0];
 // $idadeList2[count($idadeList2)] = 40;
 // caso não informe o indice ele adiciona ao final
 $idadeList2[] = 40;
-
+// List atribui os valores do array na ordem de aparição
+list($idadeGabriel, $idadeMaisa, $idadeLucao) = $idadeList2;
+echo $idadeGabriel;
 foreach ($idadeList2 as $key) {
     echo $key . PHP_EOL;
 }
